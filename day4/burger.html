@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+      section{
+        position: relative;
+        height: 600px;
+        width: 600px;
+        
+        margin:auto;
+      }
+        [alt="burger"]{
+            position: absolute;
+            bottom: 50px;
+            right: 100px;
+            height: 300px;
+            width: 300px;
+
+            z-index: 4;
+        }
+        [alt="coke"]{
+            position: absolute;
+            bottom: 60px;
+            right: 0px;
+            z-index: 5;
+
+        }
+        [alt="fries"]{
+            position: absolute;
+            top: 250px;
+           width: 250px;
+           transform: rotate(-30deg);
+          left: 60px;
+          z-index:2;
+
+        }
+        [alt="sundae"]{
+            position: absolute;
+            top: 120px;
+           width: 200px;
+          left: 150px;
+          z-index: 3;
+          
+
+        }
+        [alt="pizza"]{
+            position: absolute;
+        
+           width: 700px;
+         transform: -50% -50;
+          z-index: 1;
+          opacity: 70%
+          
+
+        }
+        [alt="chef"]{
+            position: absolute;
+            width: 500px;
+             z-index: -1;
+            
+          
+
+        }
+        div{
+            height: 200px;
+            width: 200px;
+            /* border: solid; */
+            z-index: 4;
+            position: absolute;
+            bottom: 0;
+            left: 10px;
+            border-radius: 50%;
+            background-color: red;
+            padding: 18px;
+
+        }
+        article{
+            height: 160px;
+            width: 160px;
+            border-radius: 50%;
+            border: dashed white;
+            padding: 20px;
+            text-align: center;
+        }
+        #only{
+            font-size: 30px;
+            letter-spacing: 8px;
+            color: white;
+        }
+        #price{
+            font-size: 50px;
+            color: white;
+        }
+        span{
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <section>
+      <img src="./7ffa203dc79935779071038ebc1efdb1.png" alt="burger" width="200px">
+      <img src="./356af7a7db89234738f351e25fc15f36.png" alt="fries" width="200px">
+      <img src="./kisspng-coca-cola-fizzy-drinks-sprite-diet-coke-plastic-bottle-5ad15e75bf3e49.8504638115236706457833.png" alt="coke" width="200px">
+      <img src="./a6nxp4twi.png" alt="sundae">
+      <img src="./06e698e4ef0cd1c7a4b29a995ef9a073.png" alt="pizza">
+      <img src="./kisspng-table-kitchen-bar-restaurant-chimney-sweep-female-chef-5ac7159e3802e0.3135024715229966382294.png" alt="chef">
+      <div>
+        <article>
+            <p id="price">$5. <span>49</span></p>
+            <p id="only">ONLY</p>
+        </article>
+      </div>
+    </section>
+</body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="click" onclick="click()">click here</button>
+    <h1 id="js">hi im javascript</h1>
+    <script>
+        function click() {
+            const buttonElement = document.querySelector("#click");
+            const helloElement  = document.getElementById("js")
+            helloElement.innerHTML = "hello";
+            console.log("hello");
+        }
+    </script>
+    
+</body>
+</html>
